@@ -1,3 +1,4 @@
+name: pointer
 build:
   settings:
     board_root: .

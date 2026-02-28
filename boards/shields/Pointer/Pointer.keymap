@@ -8,8 +8,8 @@
 
         default_layer {
             bindings = < 
-            &lt 1 A
-            &lt 2 B
+            &lt 1 PG_UP
+            &lt 2 PG_DN
             >;
         };
 

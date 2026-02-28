@@ -15,15 +15,15 @@
 
         rst_layer {
             bindings = < 
-            &bootloader
             &none
+            &bootloader
             >;
         };
 
         bt_layer {
             bindings = < 
-            &none
             &bt BT_CLR_ALL
+            &none
             >;
         };
     };

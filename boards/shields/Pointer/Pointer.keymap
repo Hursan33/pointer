@@ -5,14 +5,24 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer { // Layer 0
-            // -------------------------------------
-            // |     Z     |     M     |     K     |
-            // |     A     |     B     |     C     |
-            // |     D     |     E     |     F     |
-            bindings = <
-                &kp Z
-                &kp A
+        default_layer {
+            bindings = < 
+            &lt 1 A
+            &lt 2 B
+            >;
+        };
+
+        rst_layer {
+            bindings = < 
+            &bootloader
+            &none
+            >;
+        };
+
+        bt_layer {
+            bindings = < 
+            &none
+            &bt BT_CLR_ALL
             >;
         };
     };
